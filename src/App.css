@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.poruke-lista {
+  padding-top: 50px;
+  padding-left: 0px;
+  max-width: 900px;
+  width: 95%;
+  margin: 0 auto 10px;
+  overflow: auto;
+}
+
+.poruke-poruka {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.poruke-poruka.aktivniKorisnik {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.korIme {
+  color: gray;
+  font-size: 13px;
+  padding-bottom: 4px;
+}
+
+.tekst {
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 15px;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+form {
+  display: flex;
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  justify-content: space-between;
+}
+
+input {
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  flex-grow: 0.98;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+}
