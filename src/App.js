@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     async function inicijalizirajKorisnika() {
-      const drone = await new window.Scaledrone("dOdHzyUVOcf4LIye", {
+      const drone = await new window.Scaledrone("mNuIMjCokhnNB07U", {
         data: webchat.member,
       });
 
